@@ -1,0 +1,23 @@
+body {
+    color: white;
+    text-align: center;
+    background: rgb(168, 167, 167);
+
+}
+
+#wrapper {
+    width: 50%;
+    margin: 30px auto;
+    padding: 0px 20px;
+}
+
+button {
+    background: #18798a;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+/* Add button hover */
