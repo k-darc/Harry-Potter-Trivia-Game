@@ -1,23 +1,57 @@
 body {
-    color: white;
     text-align: center;
-    background: rgb(168, 167, 167);
-
+    background: rgb(184, 182, 182);
+    font-family: 'Yeseva One', cursive;
 }
 
-#wrapper {
-    width: 50%;
+#wrapper2 {
+    width: 700px;
     margin: 30px auto;
     padding: 0px 20px;
 }
 
-button {
+#wrapper {
+    width: 700px;
+    margin: 30px auto;
+    padding: 0px 20px 0px 0px;
+
+}
+/* This overwrites the button CSS stuff, be careful */
+/*
+#wrapper .start {
     background: #18798a;
-    color: rgb(255, 255, 255);
-    width: 400px;
+    color: rgb(255, 249, 196);
+    width: 460px;
+    height: 80px;
+    padding: 10px;
+    margin: 200px 20px 40px 20px;
+    font-size: 34px;
+    border: none;
+}*/
+
+#wrapper .restart {
+    background: #18798a;
+    color: rgb(255, 249, 196);
+    width: 400px auto;
     padding: 10px;
     margin: 20px auto;
-    font-size: 25px;
+    font-size: 24px;
+    border: none;
 }
 
-/* Add button hover */
+button {
+    background: #18798a;
+    color: rgb(255, 249, 196);
+    width: 300px;
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+    font-size: 24px;
+    border: none;
+}
+
+button:hover {
+    padding: 8px;
+    border: solid 2px yellow;
+    color: yellow;
+    font-weight:bold;
+}

@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Barlow|Dancing+Script|Indie+Flower|Yeseva+One&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/css/style.css">
 
@@ -13,25 +14,26 @@
 
 </head>
 
-
 <body>
-    <div id="wrapper">
 
-        <div class="clock"></div>
-        <h1 class="title"></h1>
-        <div class="results"></div>
+    <h1 class="title">Harry Potter Quiz</h1>
+    <div class="clock"></div>
+
+    <div id="wrapper"> <!-- Hide this stuff first-->
+        <!--<button class="restart">TRY AGAIN</button>-->
         <button class="start">BEGIN TRIVIA</button>
-        <button class="restart">TRY AGAIN</button>
-                    
-        <button value="0" id="choice0" class="choice"></button>
-        <button value="1" id="choice1" class="choice"></button>
-        <button value="2" id="choice2" class="choice"></button>
-        <button value="3" id="choice3" class="choice"></button>
-
+        <div class="results"></div>
     </div>
 
-<script src="assets/javascript/app.js"></script>
+
+    <div id="wrapper2">
+        <p id="questionLine"></p>
+        <div id="button1"></div>
+    </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="assets/javascript/app.js"></script>
+
 
 </body>
 </html>
