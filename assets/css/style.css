@@ -1,57 +1,42 @@
-body {
-    text-align: center;
-    background: rgb(184, 182, 182);
-    font-family: 'Yeseva One', cursive;
+html {
+	
 }
 
-#wrapper2 {
-    width: 700px;
-    margin: 30px auto;
-    padding: 0px 20px;
+body{
+	text-align: center;
+	background-image: url("http://getwallpapers.com/wallpaper/full/0/6/b/15711.jpg");
+	color:white;
 }
 
-#wrapper {
-    width: 700px;
-    margin: 30px auto;
-    padding: 0px 20px 0px 0px;
-
-}
-/* This overwrites the button CSS stuff, be careful */
-/*
-#wrapper .start {
-    background: #18798a;
-    color: rgb(255, 249, 196);
-    width: 460px;
-    height: 80px;
-    padding: 10px;
-    margin: 200px 20px 40px 20px;
-    font-size: 34px;
-    border: none;
-}*/
-
-#wrapper .restart {
-    background: #18798a;
-    color: rgb(255, 249, 196);
-    width: 400px auto;
-    padding: 10px;
-    margin: 20px auto;
-    font-size: 24px;
-    border: none;
+img {
+	height: 150px;
+	width: 300px;
 }
 
-button {
-    background: #18798a;
-    color: rgb(255, 249, 196);
-    width: 300px;
-    padding: 10px;
-    margin: 20px 10px 10px 10px;
-    font-size: 24px;
-    border: none;
+.text-muted{
+	color: rgb(250, 226, 10);
+}
+.last-seconds{
+  color: red;
+  font-weight: bold;
+}
+.option{
+  margin: 15px;
 }
 
-button:hover {
-    padding: 8px;
-    border: solid 2px yellow;
-    color: yellow;
-    font-weight:bold;
+.btn {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-color: white;
+}
+
+.btn:hover {
+	color: rgb(0, 0, 0);
+	border-color: rgb(211, 211, 211);
+	background-color: rgb(211, 211, 211);
+}
+
+.jumbotron {
+	/* background: rgba(204, 204, 204, 0.712); */
+	background: rgba(39, 91, 139, 0.719);
 }
