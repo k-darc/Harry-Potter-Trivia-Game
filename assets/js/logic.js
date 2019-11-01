@@ -114,7 +114,7 @@ var trivia = {
         .html('<h3>Thanks for playing!</h3>' +
           '<p>Correct: ' + trivia.correct + '</p>' +
           '<p>Wrong: ' + trivia.wrong + '</p>' +
-          '<p>Unaswered: ' + trivia.unanswered + '</p>' +
+          '<p>Unanswered: ' + trivia.unanswered + '</p>' +
           '<p>Play again?</p>');
 
       $('#game').hide();
