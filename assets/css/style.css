@@ -1,6 +1,3 @@
-html {
-	
-}
 
 body{
 	text-align: center;
@@ -37,6 +34,5 @@ img {
 }
 
 .jumbotron {
-	/* background: rgba(204, 204, 204, 0.712); */
 	background: rgba(39, 91, 139, 0.719);
 }
