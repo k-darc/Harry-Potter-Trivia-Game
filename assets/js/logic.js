@@ -1,9 +1,9 @@
-$(document).ready(function(){
-  
+$(document).ready(function () {
+
   $("#remaining-time").hide();
   $("#start").on('click', trivia.startGame);
-  $(document).on('click' , '.option', trivia.guessChecker);
-  
+  $(document).on('click', '.option', trivia.guessChecker);
+
 })
 
 var trivia = {
@@ -13,7 +13,7 @@ var trivia = {
   currentSet: 0,
   timer: 20,
   timerOn: false,
-  timerId : '',
+  timerId: '',
 
   questions: {
     q1: "What is the title of the first Harry Potter novel in America?",
@@ -116,10 +116,6 @@ var trivia = {
           '<p>Wrong: ' + trivia.wrong + '</p>' +
           '<p>Unanswered: ' + trivia.unanswered + '</p>' +
           '<p>Play again?</p>');
-
-      $('#game').hide();
-      $('#start').show();
-      document.getElementById('audioTwo').play()
     }
 
   },
